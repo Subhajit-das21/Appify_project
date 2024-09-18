@@ -28,7 +28,12 @@ class _MyWidgetState extends State<MyWidget> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
             Image.asset("assets/ep_food.png"),
-            Text("Recipe's")
+            Text("Recipe's",
+            style: TextStyle(
+              fontWeight: FontWeight.w700,
+            ),
+            
+            )
 
             
           ],),
@@ -41,7 +46,8 @@ class _MyWidgetState extends State<MyWidget> {
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Row(
               children: [
-                Icon(Icons.restaurant_menu, size: 24),
+                // Icon(Icons.restaurant_menu, size: 24),
+                Image.asset("assets/emojione-monotone_fork-and-knife-with-plate.png"),
                 SizedBox(width: 8),
                 Text(
                   'Pick for Today',
@@ -104,7 +110,7 @@ class _MyWidgetState extends State<MyWidget> {
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Image.asset(
-                            'assets/Rectangle 7.png',
+                            'assets/Briyani.png',
                             width: 90,
                             height: 80,
                             fit: BoxFit.cover,
