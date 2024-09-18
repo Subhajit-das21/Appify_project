@@ -56,7 +56,7 @@ class _MyWidgetState extends State<MyWidget> {
                 Spacer(),
                 Text(
                   'View All',
-                  style: TextStyle(color: Colors.red, fontSize: 16),
+                  style: TextStyle(color: Colors.red, fontSize: 20),
                 ),
               ],
             ),
@@ -86,12 +86,44 @@ class _MyWidgetState extends State<MyWidget> {
                         ),
                       ),
                       SizedBox(width: 16),
-                      Text(
-                        'Name: Pizza',
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Name: Pizza',
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+
+                          Row(
+                            children: [
+                              Icon(Icons.watch_later_outlined, color: Colors.grey,),
+                              SizedBox(width: 5,),
+                              Text(
+                                '2hr',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
+                          ),
+
+
+                          Text(
+                            'a popular Italian dish made of a...',
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+
+                        ],
                       ),
                       
                     ],
@@ -118,13 +150,52 @@ class _MyWidgetState extends State<MyWidget> {
                         ),
                       ),
                       SizedBox(width: 16),
-                      Text(
-                        'Name: Biriyani',
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
+
+                         Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Name: Biriyani',
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+
+                          Row(
+                            children: [
+                              Icon(Icons.watch_later_outlined, color: Colors.grey,),
+                              SizedBox(width: 5,),
+                              Text(
+                                '1hr',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
+                          ),
+
+
+                          Text(
+                            'Biryani is a flavorful South...',
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+
+                        ],
                       ),
+
+
+                       
+
+                       
+
                     ],
                   ),
                 ),
@@ -156,14 +227,48 @@ class _MyWidgetState extends State<MyWidget> {
                         ),
                       ),
                       SizedBox(width: 16),
-                      Text(
-                        'Name: Pasta',
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
+
+
+                       Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Name: Pasta',
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+
+                          Row(
+                            children: [
+                              Icon(Icons.watch_later_outlined, color: Colors.grey,),
+                              SizedBox(width: 5,),
+                              Text(
+                                '30 mins',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
+                          ),
+
+
+                          Text(
+                            'Pasta is an Italian dish made of...',
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+
+                        ],
                       ),
-                      
+          
                     ],
                   ),
                 ),
@@ -188,13 +293,50 @@ class _MyWidgetState extends State<MyWidget> {
                         ),
                       ),
                       SizedBox(width: 16),
-                      Text(
-                        'Name: Kebab',
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
+
+                       Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Name: Kebab',
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+
+                          Row(
+                            children: [
+                              Icon(Icons.watch_later_outlined, color: Colors.grey,),
+                              SizedBox(width: 5,),
+                              Text(
+                                '45 mins',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
+                          ),
+
+
+                          Text(
+                            'Kebab is a dish of grilled or...',
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+
+                        ],
                       ),
+
+
+
+
                     ],
                   ),
                 ),
